@@ -1,0 +1,27 @@
+######################################################
+########## K means cluster code challenge ############
+######################################################
+
+This document contain the instruction on how to use the K means clustering code.
+
+Execution command: python code_kmean.py
+
+Output:
+1. 'Result.csv' file which contain the cluster id that each data point belong to.
+2. 'cluster.jpeg' image of the final cluster distribution. If plot variable is 
+	set to False then this image would not be saved.
+
+############# Important variables ###########
+plot (line no 9):  This is set to True if user wants to save the final plot in 
+				   the form of a jpeg file. If set to False the image would not
+				   be saved.
+
+data (line no 10): Here in the current implementation the value provided is None
+                   But in place of None a list of tuples can be used which should
+				   be 2 dimensional. For example:  [(1.1, 2.5), (3.4,1.9)...]
+				   
+k (line no 18):	   Here variable k is the number of clusters which is to be created.
+
+iterations (line no 19): It is the number of updations of centroids before the final
+						 result is saved in a form of csv file.
+				   
